@@ -114,7 +114,8 @@ def function5():
 def function6():
     # Create a null vector of size 10 but the fifth and eighth value which is 10,20 respectively
    
-    arr = #wrtie your code here
+    arr = ((np.arange(-10,90, 10, dtype = int) / 3))
+    arr = np.where(arr % 10 == 0, arr, 0)
   
     return arr
    
