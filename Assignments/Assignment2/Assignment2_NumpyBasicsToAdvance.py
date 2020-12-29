@@ -87,7 +87,7 @@ def function4():
    
     arr = np.arange(9).reshape(3,3)
   
-    return #wrtie your code here
+    return arr[:,[1,0,2]]
     """
     Expected Output:
           array([[1, 0, 2],
