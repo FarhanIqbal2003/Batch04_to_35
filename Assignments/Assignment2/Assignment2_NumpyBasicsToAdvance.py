@@ -135,7 +135,7 @@ def function7():
 def function8():
     # Create a new array of 2x5 uints, filled with 6.
     
-    x = #write your code here
+    x = #write your code here test
   
     return x
 
