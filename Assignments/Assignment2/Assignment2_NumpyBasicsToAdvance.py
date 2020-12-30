@@ -267,7 +267,7 @@ def function16():
     
     x = np.array([[1], [2], [3]])
     y = np.array([[2], [3], [4]])
-    ans = #write your code here 
+    ans = np.concatenate((x,y), axis=1)
   
     return ans
 
