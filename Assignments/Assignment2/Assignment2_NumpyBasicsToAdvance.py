@@ -125,7 +125,7 @@ def function7():
     #  Create an array of zeros with the same shape and type as X. Dont use reshape method
     x = np.arange(4, dtype=np.int64)
   
-    return #write your code here
+    return np.where(x > 4, 1, 0)
 
     """
     Expected Output:
