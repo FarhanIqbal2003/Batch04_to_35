@@ -215,7 +215,7 @@ def function13():
     
     
     arr = np.array([2, 6, 1, 9, 10, 3, 27])
-    ans = #write your code here 
+    ans = arr[np.logical_and(arr < 10, arr > 5)]
   
     return ans
 
