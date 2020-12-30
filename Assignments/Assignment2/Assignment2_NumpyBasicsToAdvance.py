@@ -200,7 +200,7 @@ def function12():
     # HINT: use stacking concept
     
     arr = np.array([1,2,3])
-    ans = #write your code here 
+    ans = np.concatenate((arr.repeat(3), np.tile(arr,3)), axis=0)#write your code here 
   
     return ans
 
