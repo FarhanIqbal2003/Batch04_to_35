@@ -136,7 +136,7 @@ def function7():
 def function8():
     # Create a new array of 2x5 uints, filled with 6.
     
-    x = #write your code here test
+    x = np.ones((2,5)).astype(int) * 6 
   
     return x
 
